@@ -30,3 +30,27 @@ if(blue_whale > 35){
   } else if(blue_whale <= 20){
   print("SMALL")}
 ```
+
+### Switch statement 
+
+```{r}
+housing_type <- "whole"
+
+# Based on that value I will do different things
+
+switch (housing_type,
+  "single"= print("400"),
+  "double" = print("750"),
+  "whole" = print("1100")
+)
+
+# If else statement 
+
+if (housing_type == "single"){
+  print("400")
+} else if (housing_type == "double"){
+  print("750")
+} else if (housing_type == "whole"){
+  print("1100")
+}
+```
